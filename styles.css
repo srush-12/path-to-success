@@ -209,3 +209,28 @@ td {
 #prices p{
 	color: var(--Yellow);
 }
+/* first steps styles */
+#first-step {
+	background-color: var(--Pink);
+	padding: 20px;
+	color: var(--White);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#first-step p {
+	padding: 10px;	
+	color: var(--White);
+}
+#first-step a{
+	text-decoration: none;
+	background-color: white;
+	color: var(--Dark-gray);
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 15px; 
+	box-shadow: var(--Dark-gray) 2px 2px 5px;
+	
+	
+	
+}
