@@ -111,8 +111,9 @@ nav ul li {
 nav a{
 	text-decoration: none;
 }
-nav a:hover{
-	color: var(--Pink);
+nav li:hover{
+	color: var(--Dark-gray);
+	background-color: var(--Pink);
 }
 /* main styles */
 /* services section */
@@ -212,7 +213,6 @@ td {
 /* first steps styles */
 #first-step {
 	background-color: var(--Pink);
-	padding: 20px;
 	color: var(--White);
 	display: flex;
 	flex-direction: column;
@@ -226,11 +226,13 @@ td {
 	text-decoration: none;
 	background-color: white;
 	color: var(--Dark-gray);
-	padding: 10px 20px;
+	padding: 10px 50px;
 	margin: 10px;
 	border-radius: 15px; 
-	box-shadow: var(--Dark-gray) 2px 2px 5px;
-	
-	
-	
+	box-shadow: var(--Dark-gray) 2px 2px 5px;		
+}
+#first-step a:hover{
+	background-color: var(--Yellow);
+	color: var(--Dark-gray);
+	box-shadow: var(--Dark-gray) 4px 4px 10px;
 }
