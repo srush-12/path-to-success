@@ -115,6 +115,7 @@ nav a:hover{
 	color: var(--Pink);
 }
 /* main styles */
+/* services section */
 
 #services section {
 	padding: 20px;
@@ -143,3 +144,46 @@ section p{
 	padding: 10px;
 	color: var(--Dark-gray);
 }
+/*
+why choose us section */
+#why-choose-us {
+	background-color: var(--Pink);
+	
+}
+#why-choose-us ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	padding: 10px;
+	background-color: var(--Pink);
+}
+#why-choose-us li:nth-child(1){
+	color: var(--Dark-gray);
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--Teal);
+}
+#why-choose-us li:nth-child(2){
+	color: var(--Dark-gray);
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--Lavender);
+}
+#why-choose-us li:nth-child(3){
+	color: var(--Dark-gray);
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--Yellow);
+
+}	
+#why-choose-us li:nth-child(4){
+	color: var(--Dark-gray);
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--White);
+}
+
