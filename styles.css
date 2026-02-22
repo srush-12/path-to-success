@@ -110,11 +110,18 @@ nav ul li {
 }
 nav a{
 	text-decoration: none;
+	width:100%
+
 }
 nav li:hover{
 	color: var(--Dark-gray);
 	background-color: var(--Pink);
+
 }
+nav a:hover{
+	color: var(--White);
+}
+	
 /* main styles */
 /* services section */
 
@@ -202,12 +209,13 @@ th, td {
 th {
 	background-color: var(--Yellow);
 	color: var(--Dark-gray);
+	text-transform: uppercase;
 }
 td {
 	background-color: var(--White);
 	color: var(--Dark-gray);
 }
-#prices p{
+#prices h3{
 	color: var(--Yellow);
 }
 /* first steps styles */
@@ -235,4 +243,16 @@ td {
 	background-color: var(--Yellow);
 	color: var(--Dark-gray);
 	box-shadow: var(--Dark-gray) 4px 4px 10px;
+}
+/*footer styles */
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+}
+footer a {
+	
+	color: var(--White);
 }
